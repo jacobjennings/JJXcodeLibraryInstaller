@@ -7,8 +7,9 @@
 //
 
 #import "JJXcodeProjectOptionsViewController.h"
+#import "JJTargetCellView.h"
 
-@interface JJXcodeProjectOptionsViewController ()
+@interface JJXcodeProjectOptionsViewController () <NSTableViewDataSource, NSTableViewDelegate>
 
 @end
 
@@ -26,7 +27,29 @@
 
 - (void)awakeFromNib
 {
-    
+    NSLog(@"awoke. view: %@", self.view);
+}
+
+#pragma mark - NSTableViewDataSource
+
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
+{
+    return 4;
+}
+
+- (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row;
+{
+    return nil;
+}
+
+#pragma mark - NSTableViewDelegate
+
+- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row;
+{
+    JJTargetCellView *targetCellView = [tableView makeViewWithIdentifier:@"JJTargetCellView" owner:nil];
+    targetCellView.leftTextFieldCell.title = @"Something";
+    NSLog(@"Made targetCellView: %@", targetCellView);
+    return targetCellView;
 }
 
 @end

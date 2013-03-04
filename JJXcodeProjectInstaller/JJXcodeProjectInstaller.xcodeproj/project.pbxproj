@@ -14,8 +14,8 @@
 		1F5197BA16E3EB7A00D9D232 /* JJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197B916E3EB7A00D9D232 /* JJAppDelegate.m */; };
 		1F5197BD16E3EB7A00D9D232 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5197BB16E3EB7A00D9D232 /* MainMenu.xib */; };
 		1F5197C816E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197C616E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m */; };
-		1F5197C916E3F80800D9D232 /* JJXcodeProjectOptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5197C716E3F80800D9D232 /* JJXcodeProjectOptionsViewController.xib */; };
 		1F5197CC16E42B3800D9D232 /* JJXcodeProjectOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197CB16E42B3800D9D232 /* JJXcodeProjectOptionsView.m */; };
+		1F5197D016E53BA600D9D232 /* JJTargetCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197CF16E53BA600D9D232 /* JJTargetCellView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,10 @@
 		1F5197BC16E3EB7A00D9D232 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1F5197C516E3F80800D9D232 /* JJXcodeProjectOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJXcodeProjectOptionsViewController.h; sourceTree = "<group>"; };
 		1F5197C616E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJXcodeProjectOptionsViewController.m; sourceTree = "<group>"; };
-		1F5197C716E3F80800D9D232 /* JJXcodeProjectOptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJXcodeProjectOptionsViewController.xib; sourceTree = "<group>"; };
 		1F5197CA16E42B3800D9D232 /* JJXcodeProjectOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJXcodeProjectOptionsView.h; sourceTree = "<group>"; };
 		1F5197CB16E42B3800D9D232 /* JJXcodeProjectOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJXcodeProjectOptionsView.m; sourceTree = "<group>"; };
+		1F5197CE16E53BA600D9D232 /* JJTargetCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTargetCellView.h; sourceTree = "<group>"; };
+		1F5197CF16E53BA600D9D232 /* JJTargetCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTargetCellView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,15 +91,11 @@
 		1F5197AC16E3EB7A00D9D232 /* JJXcodeProjectInstaller */ = {
 			isa = PBXGroup;
 			children = (
+				1F5197CD16E53AA100D9D232 /* Project options */,
 				1F5197AD16E3EB7A00D9D232 /* Supporting Files */,
 				1F5197B816E3EB7A00D9D232 /* JJAppDelegate.h */,
 				1F5197B916E3EB7A00D9D232 /* JJAppDelegate.m */,
 				1F5197BB16E3EB7A00D9D232 /* MainMenu.xib */,
-				1F5197C516E3F80800D9D232 /* JJXcodeProjectOptionsViewController.h */,
-				1F5197C616E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m */,
-				1F5197C716E3F80800D9D232 /* JJXcodeProjectOptionsViewController.xib */,
-				1F5197CA16E42B3800D9D232 /* JJXcodeProjectOptionsView.h */,
-				1F5197CB16E42B3800D9D232 /* JJXcodeProjectOptionsView.m */,
 			);
 			path = JJXcodeProjectInstaller;
 			sourceTree = "<group>";
@@ -113,6 +110,19 @@
 				1F5197B516E3EB7A00D9D232 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F5197CD16E53AA100D9D232 /* Project options */ = {
+			isa = PBXGroup;
+			children = (
+				1F5197C516E3F80800D9D232 /* JJXcodeProjectOptionsViewController.h */,
+				1F5197C616E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m */,
+				1F5197CA16E42B3800D9D232 /* JJXcodeProjectOptionsView.h */,
+				1F5197CB16E42B3800D9D232 /* JJXcodeProjectOptionsView.m */,
+				1F5197CE16E53BA600D9D232 /* JJTargetCellView.h */,
+				1F5197CF16E53BA600D9D232 /* JJTargetCellView.m */,
+			);
+			name = "Project options";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +180,6 @@
 				1F5197B116E3EB7A00D9D232 /* InfoPlist.strings in Resources */,
 				1F5197B716E3EB7A00D9D232 /* Credits.rtf in Resources */,
 				1F5197BD16E3EB7A00D9D232 /* MainMenu.xib in Resources */,
-				1F5197C916E3F80800D9D232 /* JJXcodeProjectOptionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +194,7 @@
 				1F5197BA16E3EB7A00D9D232 /* JJAppDelegate.m in Sources */,
 				1F5197C816E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m in Sources */,
 				1F5197CC16E42B3800D9D232 /* JJXcodeProjectOptionsView.m in Sources */,
+				1F5197D016E53BA600D9D232 /* JJTargetCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

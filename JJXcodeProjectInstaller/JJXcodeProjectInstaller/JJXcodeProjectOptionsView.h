@@ -10,4 +10,7 @@
 
 @interface JJXcodeProjectOptionsView : NSView
 
+@property (weak) IBOutlet NSTextField *projectTitleLabel;
+@property (weak) IBOutlet NSScrollView *targetTableView;
+
 @end
