@@ -13,9 +13,29 @@
 		1F5197B716E3EB7A00D9D232 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F5197B516E3EB7A00D9D232 /* Credits.rtf */; };
 		1F5197BA16E3EB7A00D9D232 /* JJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197B916E3EB7A00D9D232 /* JJAppDelegate.m */; };
 		1F5197BD16E3EB7A00D9D232 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5197BB16E3EB7A00D9D232 /* MainMenu.xib */; };
-		1F5197C816E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197C616E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m */; };
+		1F5197C816E3F80800D9D232 /* JJXPIWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197C616E3F80800D9D232 /* JJXPIWindowController.m */; };
 		1F5197CC16E42B3800D9D232 /* JJXcodeProjectOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197CB16E42B3800D9D232 /* JJXcodeProjectOptionsView.m */; };
 		1F5197D016E53BA600D9D232 /* JJTargetCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197CF16E53BA600D9D232 /* JJTargetCellView.m */; };
+		1F5197FD16E5911A00D9D232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F5197D416E5911A00D9D232 /* InfoPlist.strings */; };
+		1F5197FE16E5911A00D9D232 /* XcodeEditor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F5197D616E5911A00D9D232 /* XcodeEditor-Info.plist */; };
+		1F5197FF16E5911A00D9D232 /* XCKeyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197DB16E5911A00D9D232 /* XCKeyBuilder.m */; };
+		1F51980016E5911A00D9D232 /* XCAbstractDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197DE16E5911A00D9D232 /* XCAbstractDefinition.m */; };
+		1F51980116E5911A00D9D232 /* XCBuildConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197E016E5911A00D9D232 /* XCBuildConfiguration.m */; };
+		1F51980216E5911A00D9D232 /* XCClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197E216E5911A00D9D232 /* XCClassDefinition.m */; };
+		1F51980316E5911A00D9D232 /* XCFileOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197E416E5911A00D9D232 /* XCFileOperationQueue.m */; };
+		1F51980416E5911A00D9D232 /* XCFrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197E616E5911A00D9D232 /* XCFrameworkDefinition.m */; };
+		1F51980516E5911A00D9D232 /* XCGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197E816E5911A00D9D232 /* XCGroup.m */; };
+		1F51980616E5911A00D9D232 /* XcodeMemberType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197EC16E5911A00D9D232 /* XcodeMemberType.m */; };
+		1F51980716E5911A00D9D232 /* XcodeSourceFileType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197EE16E5911A00D9D232 /* XcodeSourceFileType.m */; };
+		1F51980816E5911A00D9D232 /* XCProject+SubProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197F016E5911A00D9D232 /* XCProject+SubProject.m */; };
+		1F51980916E5911A00D9D232 /* XCProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197F216E5911A00D9D232 /* XCProject.m */; };
+		1F51980A16E5911A00D9D232 /* XCSourceFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197F416E5911A00D9D232 /* XCSourceFile.m */; };
+		1F51980B16E5911A00D9D232 /* XCSourceFileDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197F616E5911A00D9D232 /* XCSourceFileDefinition.m */; };
+		1F51980C16E5911A00D9D232 /* XCSubProjectDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197F816E5911A00D9D232 /* XCSubProjectDefinition.m */; };
+		1F51980D16E5911A00D9D232 /* XCTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197FA16E5911A00D9D232 /* XCTarget.m */; };
+		1F51980E16E5911A00D9D232 /* XCXibDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5197FC16E5911A00D9D232 /* XCXibDefinition.m */; };
+		1F51981016E5912900D9D232 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F51980F16E5912900D9D232 /* OCHamcrest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1F51981316E5A45400D9D232 /* JJSelectProjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F51981216E5A45400D9D232 /* JJSelectProjectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +52,54 @@
 		1F5197B816E3EB7A00D9D232 /* JJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJAppDelegate.h; sourceTree = "<group>"; };
 		1F5197B916E3EB7A00D9D232 /* JJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJAppDelegate.m; sourceTree = "<group>"; };
 		1F5197BC16E3EB7A00D9D232 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		1F5197C516E3F80800D9D232 /* JJXcodeProjectOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJXcodeProjectOptionsViewController.h; sourceTree = "<group>"; };
-		1F5197C616E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJXcodeProjectOptionsViewController.m; sourceTree = "<group>"; };
+		1F5197C516E3F80800D9D232 /* JJXPIWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJXPIWindowController.h; sourceTree = "<group>"; };
+		1F5197C616E3F80800D9D232 /* JJXPIWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJXPIWindowController.m; sourceTree = "<group>"; };
 		1F5197CA16E42B3800D9D232 /* JJXcodeProjectOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJXcodeProjectOptionsView.h; sourceTree = "<group>"; };
 		1F5197CB16E42B3800D9D232 /* JJXcodeProjectOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJXcodeProjectOptionsView.m; sourceTree = "<group>"; };
 		1F5197CE16E53BA600D9D232 /* JJTargetCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTargetCellView.h; sourceTree = "<group>"; };
 		1F5197CF16E53BA600D9D232 /* JJTargetCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTargetCellView.m; sourceTree = "<group>"; };
+		1F5197D516E5911A00D9D232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F5197D616E5911A00D9D232 /* XcodeEditor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XcodeEditor-Info.plist"; sourceTree = "<group>"; };
+		1F5197D716E5911A00D9D232 /* XcodeEditor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XcodeEditor-Prefix.pch"; sourceTree = "<group>"; };
+		1F5197D916E5911A00D9D232 /* XCEnumUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCEnumUtils.h; sourceTree = "<group>"; };
+		1F5197DA16E5911A00D9D232 /* XCKeyBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyBuilder.h; sourceTree = "<group>"; };
+		1F5197DB16E5911A00D9D232 /* XCKeyBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCKeyBuilder.m; sourceTree = "<group>"; };
+		1F5197DC16E5911A00D9D232 /* XCMemoryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMemoryUtils.h; sourceTree = "<group>"; };
+		1F5197DD16E5911A00D9D232 /* XCAbstractDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAbstractDefinition.h; sourceTree = "<group>"; };
+		1F5197DE16E5911A00D9D232 /* XCAbstractDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAbstractDefinition.m; sourceTree = "<group>"; };
+		1F5197DF16E5911A00D9D232 /* XCBuildConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCBuildConfiguration.h; sourceTree = "<group>"; };
+		1F5197E016E5911A00D9D232 /* XCBuildConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCBuildConfiguration.m; sourceTree = "<group>"; };
+		1F5197E116E5911A00D9D232 /* XCClassDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCClassDefinition.h; sourceTree = "<group>"; };
+		1F5197E216E5911A00D9D232 /* XCClassDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCClassDefinition.m; sourceTree = "<group>"; };
+		1F5197E316E5911A00D9D232 /* XCFileOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFileOperationQueue.h; sourceTree = "<group>"; };
+		1F5197E416E5911A00D9D232 /* XCFileOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFileOperationQueue.m; sourceTree = "<group>"; };
+		1F5197E516E5911A00D9D232 /* XCFrameworkDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFrameworkDefinition.h; sourceTree = "<group>"; };
+		1F5197E616E5911A00D9D232 /* XCFrameworkDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFrameworkDefinition.m; sourceTree = "<group>"; };
+		1F5197E716E5911A00D9D232 /* XCGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCGroup.h; sourceTree = "<group>"; };
+		1F5197E816E5911A00D9D232 /* XCGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCGroup.m; sourceTree = "<group>"; };
+		1F5197E916E5911A00D9D232 /* XcodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeEditor.h; sourceTree = "<group>"; };
+		1F5197EA16E5911A00D9D232 /* XcodeGroupMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeGroupMember.h; sourceTree = "<group>"; };
+		1F5197EB16E5911A00D9D232 /* XcodeMemberType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeMemberType.h; sourceTree = "<group>"; };
+		1F5197EC16E5911A00D9D232 /* XcodeMemberType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeMemberType.m; sourceTree = "<group>"; };
+		1F5197ED16E5911A00D9D232 /* XcodeSourceFileType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeSourceFileType.h; sourceTree = "<group>"; };
+		1F5197EE16E5911A00D9D232 /* XcodeSourceFileType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeSourceFileType.m; sourceTree = "<group>"; };
+		1F5197EF16E5911A00D9D232 /* XCProject+SubProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCProject+SubProject.h"; sourceTree = "<group>"; };
+		1F5197F016E5911A00D9D232 /* XCProject+SubProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCProject+SubProject.m"; sourceTree = "<group>"; };
+		1F5197F116E5911A00D9D232 /* XCProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCProject.h; sourceTree = "<group>"; };
+		1F5197F216E5911A00D9D232 /* XCProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCProject.m; sourceTree = "<group>"; };
+		1F5197F316E5911A00D9D232 /* XCSourceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceFile.h; sourceTree = "<group>"; };
+		1F5197F416E5911A00D9D232 /* XCSourceFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSourceFile.m; sourceTree = "<group>"; };
+		1F5197F516E5911A00D9D232 /* XCSourceFileDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceFileDefinition.h; sourceTree = "<group>"; };
+		1F5197F616E5911A00D9D232 /* XCSourceFileDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSourceFileDefinition.m; sourceTree = "<group>"; };
+		1F5197F716E5911A00D9D232 /* XCSubProjectDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSubProjectDefinition.h; sourceTree = "<group>"; };
+		1F5197F816E5911A00D9D232 /* XCSubProjectDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSubProjectDefinition.m; sourceTree = "<group>"; };
+		1F5197F916E5911A00D9D232 /* XCTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTarget.h; sourceTree = "<group>"; };
+		1F5197FA16E5911A00D9D232 /* XCTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTarget.m; sourceTree = "<group>"; };
+		1F5197FB16E5911A00D9D232 /* XCXibDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCXibDefinition.h; sourceTree = "<group>"; };
+		1F5197FC16E5911A00D9D232 /* XCXibDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCXibDefinition.m; sourceTree = "<group>"; };
+		1F51980F16E5912900D9D232 /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrest.framework; sourceTree = "<group>"; };
+		1F51981116E5A45400D9D232 /* JJSelectProjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSelectProjectView.h; sourceTree = "<group>"; };
+		1F51981216E5A45400D9D232 /* JJSelectProjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSelectProjectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5197A716E3EB7A00D9D232 /* Cocoa.framework in Frameworks */,
+				1F51981016E5912900D9D232 /* OCHamcrest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +154,8 @@
 		1F5197AC16E3EB7A00D9D232 /* JJXcodeProjectInstaller */ = {
 			isa = PBXGroup;
 			children = (
-				1F5197CD16E53AA100D9D232 /* Project options */,
+				1F5197D116E58A0E00D9D232 /* Third Party */,
+				1F5197CD16E53AA100D9D232 /* JJXcodeProjectInstaller */,
 				1F5197AD16E3EB7A00D9D232 /* Supporting Files */,
 				1F5197B816E3EB7A00D9D232 /* JJAppDelegate.h */,
 				1F5197B916E3EB7A00D9D232 /* JJAppDelegate.m */,
@@ -112,17 +176,91 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1F5197CD16E53AA100D9D232 /* Project options */ = {
+		1F5197CD16E53AA100D9D232 /* JJXcodeProjectInstaller */ = {
 			isa = PBXGroup;
 			children = (
-				1F5197C516E3F80800D9D232 /* JJXcodeProjectOptionsViewController.h */,
-				1F5197C616E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m */,
+				1F5197C516E3F80800D9D232 /* JJXPIWindowController.h */,
+				1F5197C616E3F80800D9D232 /* JJXPIWindowController.m */,
+				1F51981116E5A45400D9D232 /* JJSelectProjectView.h */,
+				1F51981216E5A45400D9D232 /* JJSelectProjectView.m */,
 				1F5197CA16E42B3800D9D232 /* JJXcodeProjectOptionsView.h */,
 				1F5197CB16E42B3800D9D232 /* JJXcodeProjectOptionsView.m */,
 				1F5197CE16E53BA600D9D232 /* JJTargetCellView.h */,
 				1F5197CF16E53BA600D9D232 /* JJTargetCellView.m */,
 			);
-			name = "Project options";
+			name = JJXcodeProjectInstaller;
+			sourceTree = "<group>";
+		};
+		1F5197D116E58A0E00D9D232 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				1F51980F16E5912900D9D232 /* OCHamcrest.framework */,
+				1F5197D216E5911A00D9D232 /* XcodeEditor */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		1F5197D216E5911A00D9D232 /* XcodeEditor */ = {
+			isa = PBXGroup;
+			children = (
+				1F5197D316E5911A00D9D232 /* Resources */,
+				1F5197D816E5911A00D9D232 /* Utils */,
+				1F5197DD16E5911A00D9D232 /* XCAbstractDefinition.h */,
+				1F5197DE16E5911A00D9D232 /* XCAbstractDefinition.m */,
+				1F5197DF16E5911A00D9D232 /* XCBuildConfiguration.h */,
+				1F5197E016E5911A00D9D232 /* XCBuildConfiguration.m */,
+				1F5197E116E5911A00D9D232 /* XCClassDefinition.h */,
+				1F5197E216E5911A00D9D232 /* XCClassDefinition.m */,
+				1F5197E316E5911A00D9D232 /* XCFileOperationQueue.h */,
+				1F5197E416E5911A00D9D232 /* XCFileOperationQueue.m */,
+				1F5197E516E5911A00D9D232 /* XCFrameworkDefinition.h */,
+				1F5197E616E5911A00D9D232 /* XCFrameworkDefinition.m */,
+				1F5197E716E5911A00D9D232 /* XCGroup.h */,
+				1F5197E816E5911A00D9D232 /* XCGroup.m */,
+				1F5197E916E5911A00D9D232 /* XcodeEditor.h */,
+				1F5197EA16E5911A00D9D232 /* XcodeGroupMember.h */,
+				1F5197EB16E5911A00D9D232 /* XcodeMemberType.h */,
+				1F5197EC16E5911A00D9D232 /* XcodeMemberType.m */,
+				1F5197ED16E5911A00D9D232 /* XcodeSourceFileType.h */,
+				1F5197EE16E5911A00D9D232 /* XcodeSourceFileType.m */,
+				1F5197EF16E5911A00D9D232 /* XCProject+SubProject.h */,
+				1F5197F016E5911A00D9D232 /* XCProject+SubProject.m */,
+				1F5197F116E5911A00D9D232 /* XCProject.h */,
+				1F5197F216E5911A00D9D232 /* XCProject.m */,
+				1F5197F316E5911A00D9D232 /* XCSourceFile.h */,
+				1F5197F416E5911A00D9D232 /* XCSourceFile.m */,
+				1F5197F516E5911A00D9D232 /* XCSourceFileDefinition.h */,
+				1F5197F616E5911A00D9D232 /* XCSourceFileDefinition.m */,
+				1F5197F716E5911A00D9D232 /* XCSubProjectDefinition.h */,
+				1F5197F816E5911A00D9D232 /* XCSubProjectDefinition.m */,
+				1F5197F916E5911A00D9D232 /* XCTarget.h */,
+				1F5197FA16E5911A00D9D232 /* XCTarget.m */,
+				1F5197FB16E5911A00D9D232 /* XCXibDefinition.h */,
+				1F5197FC16E5911A00D9D232 /* XCXibDefinition.m */,
+			);
+			name = XcodeEditor;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1F5197D316E5911A00D9D232 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F5197D416E5911A00D9D232 /* InfoPlist.strings */,
+				1F5197D616E5911A00D9D232 /* XcodeEditor-Info.plist */,
+				1F5197D716E5911A00D9D232 /* XcodeEditor-Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F5197D816E5911A00D9D232 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1F5197D916E5911A00D9D232 /* XCEnumUtils.h */,
+				1F5197DA16E5911A00D9D232 /* XCKeyBuilder.h */,
+				1F5197DB16E5911A00D9D232 /* XCKeyBuilder.m */,
+				1F5197DC16E5911A00D9D232 /* XCMemoryUtils.h */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +318,8 @@
 				1F5197B116E3EB7A00D9D232 /* InfoPlist.strings in Resources */,
 				1F5197B716E3EB7A00D9D232 /* Credits.rtf in Resources */,
 				1F5197BD16E3EB7A00D9D232 /* MainMenu.xib in Resources */,
+				1F5197FD16E5911A00D9D232 /* InfoPlist.strings in Resources */,
+				1F5197FE16E5911A00D9D232 /* XcodeEditor-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,9 +332,26 @@
 			files = (
 				1F5197B316E3EB7A00D9D232 /* main.m in Sources */,
 				1F5197BA16E3EB7A00D9D232 /* JJAppDelegate.m in Sources */,
-				1F5197C816E3F80800D9D232 /* JJXcodeProjectOptionsViewController.m in Sources */,
+				1F5197C816E3F80800D9D232 /* JJXPIWindowController.m in Sources */,
 				1F5197CC16E42B3800D9D232 /* JJXcodeProjectOptionsView.m in Sources */,
 				1F5197D016E53BA600D9D232 /* JJTargetCellView.m in Sources */,
+				1F5197FF16E5911A00D9D232 /* XCKeyBuilder.m in Sources */,
+				1F51980016E5911A00D9D232 /* XCAbstractDefinition.m in Sources */,
+				1F51980116E5911A00D9D232 /* XCBuildConfiguration.m in Sources */,
+				1F51980216E5911A00D9D232 /* XCClassDefinition.m in Sources */,
+				1F51980316E5911A00D9D232 /* XCFileOperationQueue.m in Sources */,
+				1F51980416E5911A00D9D232 /* XCFrameworkDefinition.m in Sources */,
+				1F51980516E5911A00D9D232 /* XCGroup.m in Sources */,
+				1F51980616E5911A00D9D232 /* XcodeMemberType.m in Sources */,
+				1F51980716E5911A00D9D232 /* XcodeSourceFileType.m in Sources */,
+				1F51980816E5911A00D9D232 /* XCProject+SubProject.m in Sources */,
+				1F51980916E5911A00D9D232 /* XCProject.m in Sources */,
+				1F51980A16E5911A00D9D232 /* XCSourceFile.m in Sources */,
+				1F51980B16E5911A00D9D232 /* XCSourceFileDefinition.m in Sources */,
+				1F51980C16E5911A00D9D232 /* XCSubProjectDefinition.m in Sources */,
+				1F51980D16E5911A00D9D232 /* XCTarget.m in Sources */,
+				1F51980E16E5911A00D9D232 /* XCXibDefinition.m in Sources */,
+				1F51981316E5A45400D9D232 /* JJSelectProjectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +380,14 @@
 				1F5197BC16E3EB7A00D9D232 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1F5197D416E5911A00D9D232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F5197D516E5911A00D9D232 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,6 +456,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JJXcodeProjectInstaller\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JJXcodeProjectInstaller/JJXcodeProjectInstaller-Prefix.pch";
 				INFOPLIST_FILE = "JJXcodeProjectInstaller/JJXcodeProjectInstaller-Info.plist";
@@ -303,6 +472,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JJXcodeProjectInstaller\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JJXcodeProjectInstaller/JJXcodeProjectInstaller-Prefix.pch";
 				INFOPLIST_FILE = "JJXcodeProjectInstaller/JJXcodeProjectInstaller-Info.plist";
